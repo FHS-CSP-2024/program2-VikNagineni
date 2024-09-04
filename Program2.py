@@ -50,8 +50,8 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-
-
+name=input("What is your name?")
+print(name)
 
 
 ## Problem 2 ##
@@ -60,6 +60,8 @@
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
 
+newname=input("What is your name?")
+print("!" + newname + "!" + newname + "!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -71,11 +73,25 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+username=input("What is your name?")
+lastname=input("What about your last name?")
+adress=input("What is your adress ?")
+City=input("What is your city and postal code?")
+
+print("Your name is" + username + lastname)
+print("Your adress is " + adress)
+print("Your city and postal code is " + City)
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
+word1=input("Say a word")
+word2=input("Say a word")
+word3=input("Say a word")
+
+print(word1 + "-" + word2 +"-" + word3)
 
 ## Problem 5 ##
 #Please write a script that: 
