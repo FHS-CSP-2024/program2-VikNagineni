@@ -104,3 +104,8 @@ print(word1 + "-" + word2 +"-" + word3)
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name=input("What is your name?")
+year=input("What year were you born")
+
+print(name + "is a student that takes computer science that was born in "+ year + "They are in the 24-25' school year attending FHS. Most likely their teacher is Mr. Johnson.")
